@@ -22,7 +22,48 @@
   font-family: georgia, 'Times New Roman', Times, serif;
 }
 .link {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.h1 {
   color: #F4382D;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 
+.service-item1 {
+  background-color: #F4382D;
+  color: white;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  width: 180px;
+  height: 150px;
+}
+
+.service-item2{
+  background-color: #F4382D;
+  color: white;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  width: 180px;
+  height: 150px;
+}
+
+.service-item3{
+  background-color: #F4382D;
+  color: white;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  width: 180px;
+  height: 150px;
+}
