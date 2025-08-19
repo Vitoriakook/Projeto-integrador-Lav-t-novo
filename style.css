@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head {
+  background-color: #004AAD;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  background-color: #004AAD;
+  color: white;
+}
+
+.menu {
+  color: #F4382D;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+.link {
+  color: #F4382D;
+}
+
+

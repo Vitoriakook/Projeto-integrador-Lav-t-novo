@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #3b82f6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1595433707802-8b3c0f6bc6b0') center/cover no-repeat;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2em;
+}
+
+.btn {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.servicos {
+    padding: 40px 20px;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.servicos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.servicos table th, 
+.servicos table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.servicos table th {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.extras ul {
+    list-style: none;
+    padding: 0;
+}
+
+.extras li {
+    padding: 5px 0;
+}
+
+/* Formulário */
+.formulario {
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.formulario h3 {
+    margin-bottom: 15px;
+    color: #3b82f6;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario input, 
+.formulario select, 
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.formulario button:hover {
+    background-color: #2563eb;
+}
+
+footer {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
