@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+} */
+
+.pagamento-pix, .pagamento-cartao, .forma-pagamento, .serviços, .cadastro{
+    width: 530px;
+    height: 500px;
+    background-color: #1aa28e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#d200{
+    height: 200px;
+    width: 530px;
+    background-color: lightcoral;
+}
+#d300{
+    height: 300px;
+    width: 530px;
+    background-color: lightblue;
+}
