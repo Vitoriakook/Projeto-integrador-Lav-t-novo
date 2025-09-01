@@ -11,59 +11,255 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header {
+/* .header {
   background-color: #004AAD;
   color: white;
-}
+  height: 200px;
+} */
 
 .menu {
-  color: #F4382D;
+  height: 100%;
   text-align: center;
   font-family: georgia, 'Times New Roman', Times, serif;
+  position: sticky;
+      top: 0;
 }
+
+.link1 {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 40px; 
+  
+}
+
+.link1:hover {
+  color: #F4382D;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+  font-size: 25px;
+}
+
+
+
+
+
+.teste1{
+  width: 100%;
+  height: 170px;
+  background-color: #004AAD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logoteste {
+  
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
 .link {
   color: #ffffff;
   font-size: 20px;
 }
+
 
 .h1 {
   color: #F4382D;
   text-align: center;
   font-family: georgia, 'Times New Roman', Times, serif;
 }
+
+.h1:hover {
+  color: #5f2df4;
+  font-size: 30px;
+  text-align: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  transition: all 0.3s ease;
+}
+
 .services {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 110px;
 }
+
+
+
 
 
 .service-item1 {
-  background-color: #F4382D;
+  background-color: #004AAD;
   color: white;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  width: 180px;
-  height: 150px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.service-item2{
-  background-color: #F4382D;
-  color: white;
-  text-align: center;
-  font-family: georgia, 'Times New Roman', Times, serif;
-  border-radius: 20px;
-  width: 180px;
-  height: 150px;
+.service-item1 p{
+  margin: 5px 0;
 }
 
-.service-item3{
+.service-item1 h2 {
+  margin: 10px 0;
+}
+.services .service-item1 .botao-compra1 button {
   background-color: #F4382D;
   color: white;
-  text-align: center;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.services .service_item1 .botao_compra1 button :hover {
+  background-color: #004AAD;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.service-item2 {
+  background-color: #004AAD;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
-  width: 180px;
-  height: 150px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
+
+.service-item2 p{
+  margin: 5px 0;
+}
+
+.service-item2 h2 {
+  margin: 10px 0;
+}
+
+.services .service-item2 .botao-compra2 button {
+  background-color: #F4382D;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+.service-item3 {
+  background-color: #004AAD;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.service-item3 p{
+  margin: 5px 0;
+}
+
+.service-item3 h2 {
+  margin: 10px 0;
+}
+
+.services .service-item3 .botao-compra3 button {
+  background-color: #F4382D;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+.service-item4 {
+  background-color: #004AAD;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.service-item4 p{
+  margin: 5px 0;
+}
+
+.service-item4 h2 {
+  margin: 10px 0;
+}
+
+.services .service-item4 .botao-compra4 button {
+  background-color: #F4382D;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
