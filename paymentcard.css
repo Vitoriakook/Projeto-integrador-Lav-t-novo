@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagamento-cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.pagamento-cartao h1 {
+    margin-bottom: 20px;
+    color: #004AAD;
+}
+
+.pagamento-cartao h2 {
+    margin-bottom: 20px;
+    color: #004AAD;
+}
+
+.pagamento-cartao form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #004AAD;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.p1, .p2, .p3, .p4, .p5 {
+    margin-bottom: 20px;
+    color: #ffffff; 
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.p5 button {
+    background-color: #F4382D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p5 button :hover {
+    background-color: #2d76f4;
+    color: rgb(209, 12, 12);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
