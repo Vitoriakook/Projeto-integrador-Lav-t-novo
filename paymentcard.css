@@ -65,3 +65,31 @@
     font-weight: bold;
     transition: all 0.3s ease; 
 }
+
+.body button p {
+    background-color: #F4382D;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lastbutton button{
+    background-color: #2d87f4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagamento-pix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.pagamento-pix h2 {
+    margin-bottom: 20px;
+    color: #004AAD;
+    font-size: 30px;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    font-weight: bold;
+    
+}
+
+.pagamento-pix p {
+    margin-bottom: 20px;
+    color: #004AAD;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+.pagamento-pix .botao1 {
+  background-color: #ED6A11;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+.pagamento-pix .botao1 :hover {
+background-color: #ED6A11;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+.pagamento-pix .botao2 {
+  background-color: #ED6A11;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+
+.pagamento-pix .botao2 :hover {
+background-color: #ED6A11;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+}
+

@@ -34,7 +34,7 @@
 }
 
 .link1:hover {
-  color: #F4382D;
+  color: #ED6A11;
   text-decoration: underline;
   transition: all 0.3s ease;
   font-size: 25px;
@@ -73,17 +73,23 @@
 
 
 .h1 {
-  color: #F4382D;
+  color: #004AAD;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  font-size: 30px;
   font-family: georgia, 'Times New Roman', Times, serif;
 }
 
 .h1:hover {
-  color: #5f2df4;
-  font-size: 30px;
+  color: #ED6A11;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  font-size: 35px;
   font-family: georgia, 'Times New Roman', Times, serif;
-  transition: all 0.3s ease;
 }
 
 .services {
@@ -105,8 +111,8 @@
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   display: flex;
   text-align: center;
   padding: 10px;
@@ -115,13 +121,14 @@
 
 .service-item1 p{
   margin: 5px 0;
+  padding: 10px;
 }
 
 .service-item1 h2 {
   margin: 10px 0;
 }
 .services .service-item1 .botao-compra1 button {
-  background-color: #F4382D;
+  background-color: #ED6A11;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -154,8 +161,8 @@
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   display: flex;
   text-align: center;
   padding: 10px;
@@ -164,6 +171,7 @@
 
 .service-item2 p{
   margin: 5px 0;
+  padding: 10px;
 }
 
 .service-item2 h2 {
@@ -171,7 +179,7 @@
 }
 
 .services .service-item2 .botao-compra2 button {
-  background-color: #F4382D;
+  background-color: #ED6A11;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -192,8 +200,8 @@
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   display: flex;
   text-align: center;
   padding: 10px;
@@ -202,6 +210,7 @@
 
 .service-item3 p{
   margin: 5px 0;
+  padding: 10px;
 }
 
 .service-item3 h2 {
@@ -209,7 +218,7 @@
 }
 
 .services .service-item3 .botao-compra3 button {
-  background-color: #F4382D;
+  background-color: #ED6A11;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -230,8 +239,8 @@
   font-family: georgia, 'Times New Roman', Times, serif;
   border-radius: 20px;
   flex-direction: column;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   display: flex;
   text-align: center;
   padding: 10px;
@@ -240,6 +249,7 @@
 
 .service-item4 p{
   margin: 5px 0;
+  padding: 10px;
 }
 
 .service-item4 h2 {
@@ -247,7 +257,7 @@
 }
 
 .services .service-item4 .botao-compra4 button {
-  background-color: #F4382D;
+  background-color: #ED6A11;
   color: white;
   border: none;
   padding: 5px 10px;
@@ -257,4 +267,29 @@
 }
 
 
+.textosobre {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #004AAD;
+}
 
+.textosobre h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #0026ce;
+}
+
+
+
+.footer {
+  background-color: #004AAD;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+} 

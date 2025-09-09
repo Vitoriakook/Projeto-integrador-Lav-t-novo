@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro cartão</title>
+    <link rel="stylesheet" href="pag2.css">
+
+    <link rel="stylesheet" href="paycard.html">
+    <link rel="script" href="dados.js">
+</head>
+<body>
+    <div class="pagamento-pix">
+        <h2>Pix copia e cola</h2>
+        <p id="pix-codigo">0002014BR.GOV.BCB.PIX0114+559520.LAVÔTÁNOVO6009S14F</p>
+        
+        <div class="botao1">
+        <button onclick="copiarPix()">Copiar código Pix</button>
+</div>
+
+        <script>
+        function copiarPix() {
+            const codigoPix = document.getElementById('pix-codigo').innerText;
+            navigator.clipboard.writeText(codigoPix).then(function() {
+                alert('Código Pix copiado!');
+            }, function() {
+                alert('Falha ao copiar o código Pix.');
+            });
+        }
+        </script>
+        <div class="botao2">
+        <button onclick="window.location.href='paycard'">Voltar a página de cadastro</button>
+        
+       <br><button finalizar onclick="window.location.href='desing.html'">finalizar pedido</button><br>
+
+</div>
+       
+    
+</body>
+</html>
